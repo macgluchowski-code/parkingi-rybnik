@@ -14,13 +14,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "3 Maja",
+        "parking:type": "spp",
         "ref": "SPP1",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "3 Maja",
         "addr:city": "Rybnik",
+        "name": "Strefa PP1",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -36,13 +35,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "3 Maja",
+        "parking:type": "spp",
         "ref": "SPP2",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "3 Maja",
         "addr:city": "Rybnik",
+        "name": "Strefa PP2",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -58,13 +56,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Bolesława Chrobrego",
+        "parking:type": "spp",
         "ref": "SPP4",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Bolesława Chrobrego",
         "addr:city": "Rybnik",
+        "name": "Strefa PP4",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -80,13 +77,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Hutnicza",
+        "parking:type": "spp",
         "ref": "SPP5",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Hutnicza",
         "addr:city": "Rybnik",
+        "name": "Strefa PP5",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -102,13 +98,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Miejska",
+        "parking:type": "spp",
         "ref": "SPP6",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Miejska",
         "addr:city": "Rybnik",
+        "name": "Strefa PP6",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -124,13 +119,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Józefa Ignacego Kraszewskiego",
+        "parking:type": "spp",
         "ref": "SPP7",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Józefa Ignacego Kraszewskiego",
         "addr:city": "Rybnik",
+        "name": "Strefa PP7",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -146,13 +140,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Stanisława Staszica",
+        "parking:type": "spp",
         "ref": "SPP8",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Stanisława Staszica",
         "addr:city": "Rybnik",
+        "name": "Strefa PP8",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -168,13 +161,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Wysoka",
+        "parking:type": "spp",
         "ref": "SPP9",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Wysoka",
         "addr:city": "Rybnik",
+        "name": "Strefa PP9",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -190,13 +182,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Jadwigi i Feliksa Białych",
+        "parking:type": "spp",
         "ref": "SPP10",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Jadwigi i Feliksa Białych",
         "addr:city": "Rybnik",
+        "name": "Strefa PP10",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -212,13 +203,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Saint Vallier",
+        "parking:type": "spp",
         "ref": "SPP11",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Saint Vallier",
         "addr:city": "Rybnik",
+        "name": "Strefa PP11",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -234,13 +224,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Saint Vallier",
+        "parking:type": "spp",
         "ref": "SPP13",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Saint Vallier",
         "addr:city": "Rybnik",
+        "name": "Strefa PP13",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -256,13 +245,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Mikołowska",
+        "parking:type": "spp",
         "ref": "SPP12",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Mikołowska",
         "addr:city": "Rybnik",
+        "name": "Strefa PP12",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -278,13 +266,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Jankowicka",
+        "parking:type": "spp",
         "ref": "SPP14",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Jankowicka",
         "addr:city": "Rybnik",
+        "name": "Strefa PP14",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -300,13 +287,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Jankowicka",
+        "parking:type": "spp",
         "ref": "SPP15",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Jankowicka",
         "addr:city": "Rybnik",
+        "name": "Strefa PP15",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -322,13 +308,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Wiejska",
+        "parking:type": "spp",
         "ref": "SPP16",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Wiejska",
         "addr:city": "Rybnik",
+        "name": "Strefa PP16",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -344,13 +329,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Wiejska",
+        "parking:type": "spp",
         "ref": "SPP17",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Wiejska",
         "addr:city": "Rybnik",
+        "name": "Strefa PP17",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -366,13 +350,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Plac Armii Krajowej",
+        "parking:type": "spp",
         "ref": "SPP18",
         "fee": "yes",
-        "parking": "street",
-        "parking:type": "spp",
         "addr:street": "Plac Armii Krajowej",
         "addr:city": "Rybnik",
+        "name": "Strefa PP18",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -388,13 +371,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Rzeczna (wielopoziomowy)",
+        "parking:type": "ppp",
         "ref": "P1",
         "fee": "yes",
-        "parking": "multi-storey",
-        "parking:type": "paid",
         "addr:street": "Rzeczna (wielopoziomowy)",
         "addr:city": "Rybnik",
+        "name": "Parking nr 1",
         "note": "szlaban"
       }
     },
@@ -410,13 +392,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "3 Maja",
+        "parking:type": "ppp",
         "ref": "P2",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "3 Maja",
         "addr:city": "Rybnik",
+        "name": "Parking nr 2",
         "note": "szlaban"
       }
     },
@@ -432,13 +413,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Marii Skłodowskiej-Curie",
+        "parking:type": "ppp",
         "ref": "P3",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
-        "addr:street": "Marii Skłodowskiej-Curie",
+        "addr:street": "Marii Skłodowskiej - Curie",
         "addr:city": "Rybnik",
+        "name": "Parking nr 3",
         "note": "szlaban"
       }
     },
@@ -454,13 +434,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "ks. dr. Brudnioka",
+        "parking:type": "ppp",
         "ref": "P4",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "ks. dr. Brudnioka",
         "addr:city": "Rybnik",
+        "name": "Parking nr 4",
         "note": "szlaban"
       }
     },
@@ -476,13 +455,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Władysława Stanisława Reymonta",
+        "parking:type": "ppp",
         "ref": "P5",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Władysława Stanisława Reymonta",
         "addr:city": "Rybnik",
+        "name": "Parking nr 5",
         "note": "szlaban"
       }
     },
@@ -498,13 +476,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Młyńska",
+        "parking:type": "ppp",
         "ref": "P6",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Młyńska",
         "addr:city": "Rybnik",
+        "name": "Parking nr 6",
         "note": "szlaban"
       }
     },
@@ -520,13 +497,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Powstańców Śląskich",
+        "parking:type": "ppp",
         "ref": "P7",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Powstańców Śląskich",
         "addr:city": "Rybnik",
+        "name": "Parking nr 7",
         "note": "szlaban"
       }
     },
@@ -542,13 +518,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Tadeusza Kościuszki",
+        "parking:type": "ppp",
         "ref": "P8",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Tadeusza Kościuszki",
         "addr:city": "Rybnik",
+        "name": "Parking nr 8",
         "note": "szlaban"
       }
     },
@@ -564,13 +539,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Jana Kotucza",
+        "parking:type": "ppp",
         "ref": "P9",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Jana Kotucza",
         "addr:city": "Rybnik",
+        "name": "Parking nr 9",
         "note": "szlaban"
       }
     },
@@ -586,13 +560,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Jankowicka",
+        "parking:type": "ppp",
         "ref": "P10",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Jankowicka",
         "addr:city": "Rybnik",
+        "name": "Parking nr 10",
         "note": "szlaban"
       }
     },
@@ -608,13 +581,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Młyńska",
+        "parking:type": "ppp",
         "ref": "P11",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Młyńska",
         "addr:city": "Rybnik",
+        "name": "Parking nr 11",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -630,13 +602,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Młyńska",
+        "parking:type": "ppp",
         "ref": "P12",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Młyńska",
         "addr:city": "Rybnik",
+        "name": "Parking nr 12",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -652,13 +623,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Rzeczna",
+        "parking:type": "ppp",
         "ref": "P13",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Rzeczna",
         "addr:city": "Rybnik",
+        "name": "Parking nr 13",
         "note": "szlaban"
       }
     },
@@ -674,13 +644,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Wysoka",
+        "parking:type": "ppp",
         "ref": "P14",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Wysoka",
         "addr:city": "Rybnik",
+        "name": "Parking nr 14",
         "note": "parkomat/płatności mobilne"
       }
     },
@@ -696,13 +665,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Rudzka",
+        "parking:type": "ppp",
         "ref": "P16",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "paid",
         "addr:street": "Rudzka",
         "addr:city": "Rybnik",
+        "name": "Parking nr 16",
         "note": "szlaban"
       }
     },
@@ -718,13 +686,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Rudzka",
+        "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "seasonal",
         "addr:street": "Rudzka",
         "addr:city": "Rybnik",
+        "name": "Pniowiec I",
         "note": "płatności mobilne",
         "opening_hours": "Jul 01-Aug 31"
       }
@@ -741,13 +708,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Pniowska",
+        "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "seasonal",
         "addr:street": "Pniowska",
         "addr:city": "Rybnik",
+        "name": "Pniowiec II",
         "note": "płatności mobilne",
         "opening_hours": "Jul 01-Aug 31"
       }
@@ -764,13 +730,12 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Pniowska",
+        "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "seasonal",
         "addr:street": "Pniowska",
         "addr:city": "Rybnik",
+        "name": "Pniowiec III",
         "note": "płatności mobilne",
         "opening_hours": "Jul 01-Aug 31"
       }
@@ -781,19 +746,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.475504,
-          50.143406
+          18.475474,
+          50.148004
         ]
       },
       "properties": {
         "amenity": "parking",
-        "name": "Lechicka",
+        "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "parking": "surface",
-        "parking:type": "seasonal",
         "addr:street": "Lechicka",
         "addr:city": "Rybnik",
+        "name": "Pniowiec IV",
         "note": "płatności mobilne",
         "opening_hours": "Jul 01-Aug 31"
       }
@@ -810,11 +774,9 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Budowlanych",
+        "parking:type": "free",
         "ref": "B",
         "fee": "no",
-        "parking": "surface",
-        "parking:type": "free",
         "addr:street": "Budowlanych",
         "addr:city": "Rybnik"
       }
@@ -831,11 +793,9 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Cmentarna",
+        "parking:type": "free",
         "ref": "B",
         "fee": "no",
-        "parking": "surface",
-        "parking:type": "free",
         "addr:street": "Cmentarna",
         "addr:city": "Rybnik"
       }
@@ -852,11 +812,9 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Jaskółcza",
+        "parking:type": "free",
         "ref": "B",
         "fee": "no",
-        "parking": "surface",
-        "parking:type": "free",
         "addr:street": "Jaskółcza",
         "addr:city": "Rybnik"
       }
@@ -873,11 +831,9 @@
       },
       "properties": {
         "amenity": "parking",
-        "name": "Rudzka",
+        "parking:type": "free",
         "ref": "B",
         "fee": "no",
-        "parking": "surface",
-        "parking:type": "free",
         "addr:street": "Rudzka",
         "addr:city": "Rybnik"
       }
