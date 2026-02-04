@@ -1,231 +1,886 @@
 {
   "type": "FeatureCollection",
-  "name": "Parkingi Miejskie Rybnik",
-  "generator": "Rybnik Parking Map v2",
+  "name": "Parkingi miejskie — Rybnik",
   "features": [
-
-    {"type":"Feature","properties":{"_comment":"════════════════════════════════════════════════════════════════════════"}},
-    {"type":"Feature","properties":{"_comment":"  PRZYKŁADY — wpisy z '_example':true nie pojawiają się na mapie.      "}},
-    {"type":"Feature","properties":{"_comment":"  Aby aktywować: usuń wiersz z '_example':true i zmień dane.           "}},
-    {"type":"Feature","properties":{"_comment":"  Aby dodać nowy punkt: skopiuj przykład, zmień dane, usuń _example.   "}},
-    {"type":"Feature","properties":{"_comment":"════════════════════════════════════════════════════════════════════════"}},
-
-    {"type":"Feature","properties":{"_comment":"─── PRZYKŁAD: parking płatny (paid) ──────────────────────────────────"}},
-    {"type":"Feature","id":9901,"geometry":{"type":"Point","coordinates":[18.54000,50.09500]},"properties":{
-      "_example":     true,
-      "amenity":      "parking",
-      "name":         "Parking nr XX",
-      "ref":          "XX",
-      "parking":      "surface",
-      "fee":          "yes",
-      "capacity":     "100",
-      "addr:street":  "ul. Przykładowa",
-      "addr:city":    "Rybnik",
-      "note":         "Szlaban · 15 min bezpłatnie",
-      "parking:type": "paid"
-    }},
-
-    {"type":"Feature","properties":{"_comment":"─── PRZYKŁAD: parking bezpłatny (free) ───────────────────────────────"}},
-    {"type":"Feature","id":9902,"geometry":{"type":"Point","coordinates":[18.53500,50.10000]},"properties":{
-      "_example":     true,
-      "amenity":      "parking",
-      "name":         "Parking bezpłatny",
-      "ref":          "B",
-      "parking":      "surface",
-      "fee":          "no",
-      "addr:street":  "ul. Przykładowa",
-      "addr:city":    "Rybnik",
-      "note":         "Wjazd wolny",
-      "parking:type": "free"
-    }},
-
-    {"type":"Feature","properties":{"_comment":"─── PRZYKŁAD: SPP — Strefa Płatnego Parkowania (spp) ────────────────"}},
-    {"type":"Feature","id":9903,"geometry":{"type":"Point","coordinates":[18.54200,50.09600]},"properties":{
-      "_example":     true,
-      "amenity":      "parking",
-      "name":         "SPP ul. Rynek",
-      "ref":          "S1",
-      "parking":      "street_side",
-      "fee":          "yes",
-      "addr:street":  "ul. Rynek",
-      "addr:city":    "Rybnik",
-      "note":         "Parkometr · pon-pt 8:00-17:00",
-      "parking:type": "spp"
-    }},
-
-    {"type":"Feature","properties":{"_comment":"─── PRZYKŁAD: parking sezonowy (seasonal) ────────────────────────────"}},
-    {"type":"Feature","id":9904,"geometry":{"type":"Point","coordinates":[18.53800,50.09800]},"properties":{
-      "_example":     true,
-      "amenity":      "parking",
-      "name":         "Parking letni — Kąpielisko",
-      "ref":          "☀",
-      "parking":      "surface",
-      "fee":          "yes",
-      "addr:street":  "ul. Przykładowa",
-      "addr:city":    "Rybnik",
-      "note":         "Czynny VI–IX · opłata weekendy",
-      "opening_hours":"Jun-Sep",
-      "parking:type": "seasonal"
-    }},
-
-    {"type":"Feature","properties":{"_comment":"════════════════════════════════════════════════════════════════════════"}},
-    {"type":"Feature","properties":{"_comment":"  PARKINGI PŁATNE                                                      "}},
-    {"type":"Feature","properties":{"_comment":"════════════════════════════════════════════════════════════════════════"}},
-
-    {"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[18.53845,50.09271]},"properties":{
-      "amenity":"parking","name":"Parking wielopoziomowy","ref":"1",
-      "parking":"multi-storey","fee":"yes","capacity":"460",
-      "addr:street":"ul. Rzeczna","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[18.54292,50.09278]},"properties":{
-      "amenity":"parking","name":"Parking nr 2","ref":"2",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. 3 Maja","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[18.53988,50.09679]},"properties":{
-      "amenity":"parking","name":"Parking nr 3","ref":"3",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. M. Skłodowskiej-Curie","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[18.54322,50.09801]},"properties":{
-      "amenity":"parking","name":"Parking nr 4","ref":"4",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. ks. dr Brudnioka","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[18.54071,50.08852]},"properties":{
-      "amenity":"parking","name":"Parking nr 5","ref":"5",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Parkingowa","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[18.53989,50.09094]},"properties":{
-      "amenity":"parking","name":"Parking Targowisko","ref":"6",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Młyńska","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[18.55114,50.09770]},"properties":{
-      "amenity":"parking","name":"Parking nr 7","ref":"7",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Powstańców Śląskich","addr:city":"Rybnik",
-      "note":"90 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[18.54864,50.09656]},"properties":{
-      "amenity":"parking","name":"Parking nr 8","ref":"8",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. T. Kościuszki","addr:city":"Rybnik",
-      "note":"90 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[18.53734,50.10088]},"properties":{
-      "amenity":"parking","name":"Parking nr 9","ref":"9",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Jana Kotucza","addr:city":"Rybnik",
-      "note":"90 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[18.54239,50.09002]},"properties":{
-      "amenity":"parking","name":"Parking nr 10 (PUP)","ref":"10",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Jankowicka","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[18.54091,50.09184]},"properties":{
-      "amenity":"parking","name":"Parking nr 11","ref":"11",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Młyńska / Klasztorna","addr:city":"Rybnik",
-      "note":"Szlaban",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[18.54091,50.09237]},"properties":{
-      "amenity":"parking","name":"Parking nr 12 (Sąd)","ref":"12",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Młyńska","addr:city":"Rybnik",
-      "note":"Szlaban",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[18.53820,50.09287]},"properties":{
-      "amenity":"parking","name":"Parking nr 13","ref":"13",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Rzeczna","addr:city":"Rybnik",
-      "note":"Szlaban · 15 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[18.54744,50.09729]},"properties":{
-      "amenity":"parking","name":"Parking nr 14","ref":"14",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Wysoka","addr:city":"Rybnik",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[18.53834,50.09878]},"properties":{
-      "amenity":"parking","name":"Parking nr 16 – Kampus","ref":"16",
-      "parking":"surface","fee":"yes",
-      "addr:street":"ul. Rudzka","addr:city":"Rybnik",
-      "note":"90 min bezpłatnie",
-      "parking:type":"paid"
-    }},
-
-    {"type":"Feature","properties":{"_comment":"════════════════════════════════════════════════════════════════════════"}},
-    {"type":"Feature","properties":{"_comment":"  PARKINGI BEZPŁATNE                                                   "}},
-    {"type":"Feature","properties":{"_comment":"════════════════════════════════════════════════════════════════════════"}},
-
-    {"type":"Feature","id":101,"geometry":{"type":"Point","coordinates":[18.53262,50.10209]},"properties":{
-      "amenity":"parking","name":"Parking bezpłatny","ref":"B",
-      "parking":"surface","fee":"no",
-      "addr:street":"ul. Budowlanych","addr:city":"Rybnik",
-      "note":"Wjazd wolny",
-      "parking:type":"free"
-    }},
-
-    {"type":"Feature","id":102,"geometry":{"type":"Point","coordinates":[18.54197,50.10828]},"properties":{
-      "amenity":"parking","name":"P. bezpłatny (Cmentarz)","ref":"B",
-      "parking":"surface","fee":"no",
-      "addr:street":"ul. Rudzka","addr:city":"Rybnik",
-      "note":"Wjazd wolny",
-      "parking:type":"free"
-    }},
-
-    {"type":"Feature","id":103,"geometry":{"type":"Point","coordinates":[18.53985,50.10238]},"properties":{
-      "amenity":"parking","name":"Parking bezpłatny","ref":"B",
-      "parking":"surface","fee":"no",
-      "addr:street":"ul. Cmentarna","addr:city":"Rybnik",
-      "note":"Wjazd wolny",
-      "parking:type":"free"
-    }},
-
-    {"type":"Feature","id":104,"geometry":{"type":"Point","coordinates":[18.53742,50.10448]},"properties":{
-      "amenity":"parking","name":"Parking bezpłatny","ref":"B",
-      "parking":"surface","fee":"no",
-      "addr:street":"ul. Jaskółcza","addr:city":"Rybnik",
-      "note":"Wjazd wolny",
-      "parking:type":"free"
-    }}
-
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.544184,
+          50.094463
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "3 Maja",
+        "ref": "SPP1",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "3 Maja",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.544144,
+          50.09164
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "3 Maja",
+        "ref": "SPP2",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "3 Maja",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.543181,
+          50.093773
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Bolesława Chrobrego",
+        "ref": "SPP4",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Bolesława Chrobrego",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.549294,
+          50.09495
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Hutnicza",
+        "ref": "SPP5",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Hutnicza",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.542033,
+          50.092269
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Miejska",
+        "ref": "SPP6",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Miejska",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.545153,
+          50.097302
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Józefa Ignacego Kraszewskiego",
+        "ref": "SPP7",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Józefa Ignacego Kraszewskiego",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.544833,
+          50.096743
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Stanisława Staszica",
+        "ref": "SPP8",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Stanisława Staszica",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.545764,
+          50.096093
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Wysoka",
+        "ref": "SPP9",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Wysoka",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.547454,
+          50.096545
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Jadwigi i Feliksa Białych",
+        "ref": "SPP10",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Jadwigi i Feliksa Białych",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.546797,
+          50.095561
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Saint Vallier",
+        "ref": "SPP11",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Saint Vallier",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.547982,
+          50.095313
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Saint Vallier",
+        "ref": "SPP13",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Saint Vallier",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.549187,
+          50.098257
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Mikołowska",
+        "ref": "SPP12",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Mikołowska",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.540915,
+          50.087826
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Jankowicka",
+        "ref": "SPP14",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Jankowicka",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.539445,
+          50.086121
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Jankowicka",
+        "ref": "SPP15",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Jankowicka",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.536473,
+          50.09143
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Wiejska",
+        "ref": "SPP16",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Wiejska",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 217,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.537567,
+          50.093744
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Wiejska",
+        "ref": "SPP17",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Wiejska",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.540727,
+          50.089158
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Plac Armii Krajowej",
+        "ref": "SPP18",
+        "fee": "yes",
+        "parking": "street",
+        "parking:type": "spp",
+        "addr:street": "Plac Armii Krajowej",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.539863,
+          50.094785
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Rzeczna (wielopoziomowy)",
+        "ref": "P1",
+        "fee": "yes",
+        "parking": "multi-storey",
+        "parking:type": "paid",
+        "addr:street": "Rzeczna (wielopoziomowy)",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.543028,
+          50.092789
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "3 Maja",
+        "ref": "P2",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "3 Maja",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.539879,
+          50.096912
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Marii Skłodowskiej-Curie",
+        "ref": "P3",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Marii Skłodowskiej-Curie",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.543178,
+          50.097896
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "ks. dr. Brudnioka",
+        "ref": "P4",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "ks. dr. Brudnioka",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.540663,
+          50.088418
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Władysława Stanisława Reymonta",
+        "ref": "P5",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Władysława Stanisława Reymonta",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.539912,
+          50.090913
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Młyńska",
+        "ref": "P6",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Młyńska",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.551075,
+          50.097552
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Powstańców Śląskich",
+        "ref": "P7",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Powstańców Śląskich",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.548591,
+          50.096516
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Tadeusza Kościuszki",
+        "ref": "P8",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Tadeusza Kościuszki",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.537347,
+          50.100817
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Jana Kotucza",
+        "ref": "P9",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Jana Kotucza",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.542441,
+          50.090001
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Jankowicka",
+        "ref": "P10",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Jankowicka",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.540931,
+          50.091805
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Młyńska",
+        "ref": "P11",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Młyńska",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.540794,
+          50.092367
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Młyńska",
+        "ref": "P12",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Młyńska",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.538157,
+          50.092844
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Rzeczna",
+        "ref": "P13",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Rzeczna",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.547357,
+          50.097252
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Wysoka",
+        "ref": "P14",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Wysoka",
+        "addr:city": "Rybnik",
+        "note": "parkomat/płatności mobilne"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.538114,
+          50.098753
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Rudzka",
+        "ref": "P16",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "paid",
+        "addr:street": "Rudzka",
+        "addr:city": "Rybnik",
+        "note": "szlaban"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.480672,
+          50.142098
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Rudzka",
+        "ref": "SEZ",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "seasonal",
+        "addr:street": "Rudzka",
+        "addr:city": "Rybnik",
+        "note": "płatności mobilne",
+        "opening_hours": "Jul 01-Aug 31"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.479479,
+          50.142258
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Pniowska",
+        "ref": "SEZ",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "seasonal",
+        "addr:street": "Pniowska",
+        "addr:city": "Rybnik",
+        "note": "płatności mobilne",
+        "opening_hours": "Jul 01-Aug 31"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.475504,
+          50.143406
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Pniowska",
+        "ref": "SEZ",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "seasonal",
+        "addr:street": "Pniowska",
+        "addr:city": "Rybnik",
+        "note": "płatności mobilne",
+        "opening_hours": "Jul 01-Aug 31"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.475504,
+          50.143406
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Lechicka",
+        "ref": "SEZ",
+        "fee": "yes",
+        "parking": "surface",
+        "parking:type": "seasonal",
+        "addr:street": "Lechicka",
+        "addr:city": "Rybnik",
+        "note": "płatności mobilne",
+        "opening_hours": "Jul 01-Aug 31"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.532557,
+          50.102106
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Budowlanych",
+        "ref": "B",
+        "fee": "no",
+        "parking": "surface",
+        "parking:type": "free",
+        "addr:street": "Budowlanych",
+        "addr:city": "Rybnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.54026,
+          50.10185
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Cmentarna",
+        "ref": "B",
+        "fee": "no",
+        "parking": "surface",
+        "parking:type": "free",
+        "addr:street": "Cmentarna",
+        "addr:city": "Rybnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.541848,
+          50.108191
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Jaskółcza",
+        "ref": "B",
+        "fee": "no",
+        "parking": "surface",
+        "parking:type": "free",
+        "addr:street": "Jaskółcza",
+        "addr:city": "Rybnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.537304,
+          50.104482
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "name": "Rudzka",
+        "ref": "B",
+        "fee": "no",
+        "parking": "surface",
+        "parking:type": "free",
+        "addr:street": "Rudzka",
+        "addr:city": "Rybnik"
+      }
+    }
   ]
 }
