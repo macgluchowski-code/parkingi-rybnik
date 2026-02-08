@@ -547,7 +547,15 @@
         "addr:city": "Rybnik",
         "name": "Parking miejski nr 1",
         "addr:street": "Rzeczna (wielopoziomowy)",
-        "note": "bezobsługowy ze szlabanami"
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5,
+        "fee:hour_offpeak": 1
       }
     },
     {
