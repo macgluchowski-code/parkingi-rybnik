@@ -15,12 +15,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP1",
+        "ref": "S1",
         "fee": "yes",
-        "addr:street": "3 Maja",
         "addr:city": "Rybnik",
-        "name": "Strefa PP1",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "3 Maja",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -36,12 +46,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP2",
+        "ref": "S2",
         "fee": "yes",
-        "addr:street": "3 Maja",
         "addr:city": "Rybnik",
-        "name": "Strefa PP2",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "3 Maja",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -57,12 +77,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP4",
+        "ref": "S4",
         "fee": "yes",
-        "addr:street": "Bolesława Chrobrego",
         "addr:city": "Rybnik",
-        "name": "Strefa PP4",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Bolesława Chrobrego",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -78,12 +108,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP5",
+        "ref": "S5",
         "fee": "yes",
-        "addr:street": "Hutnicza",
         "addr:city": "Rybnik",
-        "name": "Strefa PP5",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Hutnicza",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -99,12 +139,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP6",
+        "ref": "S6",
         "fee": "yes",
-        "addr:street": "Miejska",
         "addr:city": "Rybnik",
-        "name": "Strefa PP6",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Miejska",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -120,12 +170,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP7",
+        "ref": "S7",
         "fee": "yes",
-        "addr:street": "Józefa Ignacego Kraszewskiego",
         "addr:city": "Rybnik",
-        "name": "Strefa PP7",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Józefa Ignacego Kraszewskiego",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -141,12 +201,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP8",
+        "ref": "S8",
         "fee": "yes",
-        "addr:street": "Stanisława Staszica",
         "addr:city": "Rybnik",
-        "name": "Strefa PP8",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Stanisława Staszica",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -162,12 +232,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP9",
+        "ref": "S9",
         "fee": "yes",
-        "addr:street": "Wysoka",
         "addr:city": "Rybnik",
-        "name": "Strefa PP9",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Wysoka",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -183,12 +263,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP10",
+        "ref": "S10",
         "fee": "yes",
-        "addr:street": "Jadwigi i Feliksa Białych",
         "addr:city": "Rybnik",
-        "name": "Strefa PP10",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Jadwigi i Feliksa Białych",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -204,33 +294,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP11",
+        "ref": "S11",
         "fee": "yes",
-        "addr:street": "Saint Vallier",
         "addr:city": "Rybnik",
-        "name": "Strefa PP11",
-        "note": "parkomat/płatności mobilne"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 213,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.547982,
-          50.095313
-        ]
-      },
-      "properties": {
-        "amenity": "parking",
-        "parking:type": "spp",
-        "ref": "SPP13",
-        "fee": "yes",
+        "name": "Strefa Płatnego Parkowania",
         "addr:street": "Saint Vallier",
-        "addr:city": "Rybnik",
-        "name": "Strefa PP13",
-        "note": "parkomat/płatności mobilne"
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -246,12 +325,53 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP12",
+        "ref": "S12",
         "fee": "yes",
-        "addr:street": "Mikołowska",
         "addr:city": "Rybnik",
-        "name": "Strefa PP12",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Mikołowska",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.547982,
+          50.095313
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "parking:type": "spp",
+        "ref": "S13",
+        "fee": "yes",
+        "addr:city": "Rybnik",
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Saint Vallier",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -267,12 +387,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP14",
+        "ref": "S14",
         "fee": "yes",
-        "addr:street": "Jankowicka",
         "addr:city": "Rybnik",
-        "name": "Strefa PP14",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Jankowicka",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -288,12 +418,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP15",
+        "ref": "S15",
         "fee": "yes",
-        "addr:street": "Jankowicka",
         "addr:city": "Rybnik",
-        "name": "Strefa PP15",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Jankowicka",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -309,12 +449,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP16",
+        "ref": "S16",
         "fee": "yes",
-        "addr:street": "Wiejska",
         "addr:city": "Rybnik",
-        "name": "Strefa PP16",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Wiejska",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -330,12 +480,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP17",
+        "ref": "S17",
         "fee": "yes",
-        "addr:street": "Wiejska",
         "addr:city": "Rybnik",
-        "name": "Strefa PP17",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Wiejska",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -351,12 +511,22 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "spp",
-        "ref": "SPP18",
+        "ref": "S18",
         "fee": "yes",
-        "addr:street": "Plac Armii Krajowej",
         "addr:city": "Rybnik",
-        "name": "Strefa PP18",
-        "note": "parkomat/płatności mobilne"
+        "name": "Strefa Płatnego Parkowania",
+        "addr:street": "Plac Armii Krajowej",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "08:00-18:00",
+        "paid_hours:tu": "08:00-18:00",
+        "paid_hours:we": "08:00-18:00",
+        "paid_hours:th": "08:00-18:00",
+        "paid_hours:fr": "08:00-18:00",
+        "fee:hour_1": 3.9,
+        "fee:hour_2": 4.6,
+        "fee:hour_3": 5.5,
+        "fee:hour_4": 3.9,
+        "fee:hour_next": 3.9
       }
     },
     {
@@ -374,10 +544,10 @@
         "parking:type": "ppp",
         "ref": "P1",
         "fee": "yes",
-        "addr:street": "Rzeczna (wielopoziomowy)",
         "addr:city": "Rybnik",
-        "name": "Parking nr 1",
-        "note": "szlaban"
+        "name": "Parking miejski nr 1",
+        "addr:street": "Rzeczna (wielopoziomowy)",
+        "note": "bezobsługowy ze szlabanami"
       }
     },
     {
@@ -395,10 +565,17 @@
         "parking:type": "ppp",
         "ref": "P2",
         "fee": "yes",
-        "addr:street": "3 Maja",
         "addr:city": "Rybnik",
-        "name": "Parking nr 2",
-        "note": "szlaban"
+        "name": "Parking miejski nr 2",
+        "addr:street": "3 Maja",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -416,10 +593,17 @@
         "parking:type": "ppp",
         "ref": "P3",
         "fee": "yes",
-        "addr:street": "Marii Skłodowskiej - Curie",
         "addr:city": "Rybnik",
-        "name": "Parking nr 3",
-        "note": "szlaban"
+        "name": "Parking miejski nr 3",
+        "addr:street": "Marii Skłodowskiej - Curie",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -437,10 +621,17 @@
         "parking:type": "ppp",
         "ref": "P4",
         "fee": "yes",
-        "addr:street": "ks. dr. Brudnioka",
         "addr:city": "Rybnik",
-        "name": "Parking nr 4",
-        "note": "szlaban"
+        "name": "Parking miejski nr 4",
+        "addr:street": "ks. dr. Brudnioka",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -458,10 +649,17 @@
         "parking:type": "ppp",
         "ref": "P5",
         "fee": "yes",
-        "addr:street": "Władysława Stanisława Reymonta",
         "addr:city": "Rybnik",
-        "name": "Parking nr 5",
-        "note": "szlaban"
+        "name": "Parking miejski nr 5",
+        "addr:street": "Władysława Stanisława Reymonta",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -479,10 +677,17 @@
         "parking:type": "ppp",
         "ref": "P6",
         "fee": "yes",
-        "addr:street": "Młyńska",
         "addr:city": "Rybnik",
-        "name": "Parking nr 6",
-        "note": "szlaban"
+        "name": "Parking miejski nr 6",
+        "addr:street": "Młyńska",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -500,10 +705,17 @@
         "parking:type": "ppp",
         "ref": "P7",
         "fee": "yes",
-        "addr:street": "Powstańców Śląskich",
         "addr:city": "Rybnik",
-        "name": "Parking nr 7",
-        "note": "szlaban"
+        "name": "Parking miejski nr 7",
+        "addr:street": "Powstańców Śląskich",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -521,10 +733,17 @@
         "parking:type": "ppp",
         "ref": "P8",
         "fee": "yes",
-        "addr:street": "Tadeusza Kościuszki",
         "addr:city": "Rybnik",
-        "name": "Parking nr 8",
-        "note": "szlaban"
+        "name": "Parking miejski nr 8",
+        "addr:street": "Tadeusza Kościuszki",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -542,10 +761,17 @@
         "parking:type": "ppp",
         "ref": "P9",
         "fee": "yes",
-        "addr:street": "Jana Kotucza",
         "addr:city": "Rybnik",
-        "name": "Parking nr 9",
-        "note": "szlaban"
+        "name": "Parking miejski nr 9",
+        "addr:street": "Jana Kotucza",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -563,10 +789,17 @@
         "parking:type": "ppp",
         "ref": "P10",
         "fee": "yes",
-        "addr:street": "Jankowicka",
         "addr:city": "Rybnik",
-        "name": "Parking nr 10",
-        "note": "szlaban"
+        "name": "Parking miejski nr 10",
+        "addr:street": "Jankowicka",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -584,10 +817,17 @@
         "parking:type": "ppp",
         "ref": "P11",
         "fee": "yes",
-        "addr:street": "Młyńska",
         "addr:city": "Rybnik",
-        "name": "Parking nr 11",
-        "note": "parkomat/płatności mobilne"
+        "name": "Parking miejski nr 11",
+        "addr:street": "Młyńska",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -605,10 +845,17 @@
         "parking:type": "ppp",
         "ref": "P12",
         "fee": "yes",
-        "addr:street": "Młyńska",
         "addr:city": "Rybnik",
-        "name": "Parking nr 12",
-        "note": "parkomat/płatności mobilne"
+        "name": "Parking miejski nr 12",
+        "addr:street": "Młyńska",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -626,10 +873,17 @@
         "parking:type": "ppp",
         "ref": "P13",
         "fee": "yes",
-        "addr:street": "Rzeczna",
         "addr:city": "Rybnik",
-        "name": "Parking nr 13",
-        "note": "szlaban"
+        "name": "Parking miejski nr 13",
+        "addr:street": "Rzeczna",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -647,10 +901,17 @@
         "parking:type": "ppp",
         "ref": "P14",
         "fee": "yes",
-        "addr:street": "Wysoka",
         "addr:city": "Rybnik",
-        "name": "Parking nr 14",
-        "note": "parkomat/płatności mobilne"
+        "name": "Parking miejski nr 14",
+        "addr:street": "Wysoka",
+        "note": "parkomat/płatności mobilne",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -668,10 +929,17 @@
         "parking:type": "ppp",
         "ref": "P16",
         "fee": "yes",
-        "addr:street": "Rudzka",
         "addr:city": "Rybnik",
-        "name": "Parking nr 16",
-        "note": "szlaban"
+        "name": "Parking miejski nr 16",
+        "addr:street": "Rudzka",
+        "note": "bezobsługowy ze szlabanami",
+        "paid_hours:mo": "07:00-18:00",
+        "paid_hours:tu": "07:00-18:00",
+        "paid_hours:we": "07:00-18:00",
+        "paid_hours:th": "07:00-18:00",
+        "paid_hours:fr": "07:00-18:00",
+        "paid_hours:sa": "07:00-14:00",
+        "fee:hour": 3.5
       }
     },
     {
@@ -689,10 +957,11 @@
         "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "addr:street": "Rudzka",
         "addr:city": "Rybnik",
         "name": "Pniowiec I",
+        "addr:street": "Rudzka",
         "note": "płatności mobilne",
+        "fee:day": 5,
         "opening_hours": "Jul 01-Aug 31"
       }
     },
@@ -711,10 +980,11 @@
         "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "addr:street": "Pniowska",
         "addr:city": "Rybnik",
         "name": "Pniowiec II",
+        "addr:street": "Pniowska",
         "note": "płatności mobilne",
+        "fee:day": 5,
         "opening_hours": "Jul 01-Aug 31"
       }
     },
@@ -733,10 +1003,11 @@
         "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "addr:street": "Pniowska",
         "addr:city": "Rybnik",
         "name": "Pniowiec III",
+        "addr:street": "Pniowska",
         "note": "płatności mobilne",
+        "fee:day": 5,
         "opening_hours": "Jul 01-Aug 31"
       }
     },
@@ -755,10 +1026,11 @@
         "parking:type": "seasonal",
         "ref": "SEZ",
         "fee": "yes",
-        "addr:street": "Lechicka",
         "addr:city": "Rybnik",
         "name": "Pniowiec IV",
+        "addr:street": "Lechicka",
         "note": "płatności mobilne",
+        "fee:day": 5,
         "opening_hours": "Jul 01-Aug 31"
       }
     },
@@ -775,10 +1047,11 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "free",
-        "ref": "B",
+        "ref": "B1",
         "fee": "no",
-        "addr:street": "Budowlanych",
-        "addr:city": "Rybnik"
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Budowlanych"
       }
     },
     {
@@ -794,10 +1067,11 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "free",
-        "ref": "B",
+        "ref": "B2",
         "fee": "no",
-        "addr:street": "Cmentarna",
-        "addr:city": "Rybnik"
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Cmentarna"
       }
     },
     {
@@ -813,10 +1087,11 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "free",
-        "ref": "B",
+        "ref": "B3",
         "fee": "no",
-        "addr:street": "Jaskółcza",
-        "addr:city": "Rybnik"
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Jaskółcza"
       }
     },
     {
@@ -832,10 +1107,71 @@
       "properties": {
         "amenity": "parking",
         "parking:type": "free",
-        "ref": "B",
+        "ref": "B4",
         "fee": "no",
-        "addr:street": "Rudzka",
-        "addr:city": "Rybnik"
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Rudzka"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.546762,
+          50.112202
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "parking:type": "free",
+        "ref": "B5",
+        "fee": "no",
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Gliwicka"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.545469,
+          50.113805
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "parking:type": "free",
+        "ref": "B6",
+        "fee": "no",
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Obwiednia Pólnocna"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.548629,
+          50.113702
+        ]
+      },
+      "properties": {
+        "amenity": "parking",
+        "parking:type": "free",
+        "ref": "B7",
+        "fee": "no",
+        "addr:city": "Rybnik",
+        "name": "Parking",
+        "addr:street": "Obwiednia Pólnocna"
       }
     }
   ]
